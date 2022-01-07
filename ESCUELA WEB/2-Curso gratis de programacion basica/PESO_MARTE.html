@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso en marte y Jupiter</title>
+</head>
+<body>
+    <H1>Tu peso en marte y jupiter</H1>
+    <p>tu peso en otro planeta puede ser diferente</p>
+
+    <script>
+        let usuario = prompt("cual es tu peso?");
+        let g_tierra = 9.8;
+        let g_marte = 3.7;
+        let g_jupiter = 24.8;
+        let pesoT=77;
+
+        let pesoM= (usuario*g_marte)/g_tierra;
+        let pesoJ= (usuario*g_jupiter)/g_tierra;
+        
+        document.write(parseInt(pesoM))
+        document.write(parseInt(pesoJ))
+
+    </script>
+
+    
+</body>
+</html>
